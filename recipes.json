@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Butter Chicken",
+    "diet": "non-veg",
+    "rating": 4.8,
+    "time": 40,
+    "image": "images/Butter Chicken.jpg",
+    "ingredients": [
+      {"name": "Chicken", "amount": 500, "unit": "g", "price": 250}
+    ],
+    "steps": ["Cook chicken", "Add gravy"]
+  },
+  {
+    "name": "Veg Biryani",
+    "diet": "vegetarian",
+    "rating": 4.6,
+    "time": 30,
+    "image": "images/Veg Biryani.jpg",
+    "ingredients": [
+      {"name": "Rice", "amount": 200, "unit": "g", "price": 60}
+    ],
+    "steps": ["Cook rice", "Add vegetables"]
+  },
+  {
+    "name": "Salad",
+    "diet": "vegetarian",
+    "rating": 4.3,
+    "time": 10,
+    "image": "images/Salad.jpg",
+    "ingredients": [
+      {"name": "Veggies", "amount": 1, "unit": "bowl", "price": 50}
+    ],
+    "steps": ["Mix everything"]
+  }
+]

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recipe Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>🍽 Recipe Manager</h1>
+    <p>Select a category</p>
+</header>
+
+<section class="menu">
+    <div class="menu-card" onclick="go('recipes.html?cat=veg')">
+        <img src="images/Salad.jpg">
+        <h2>Vegetarian</h2>
+    </div>
+
+    <div class="menu-card" onclick="go('recipes.html?cat=vegan')">
+        <img src="images/Tomato Pasta.jpg">
+        <h2>Vegan</h2>
+    </div>
+
+    <div class="menu-card" onclick="go('recipes.html?cat=quick')">
+        <img src="images/Upma.jpg">
+        <h2>Quick Meals</h2>
+    </div>
+</section>
+
+<script src="scripts.js"></script>
+</body>
+</html>
